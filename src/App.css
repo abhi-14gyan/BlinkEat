@@ -1,0 +1,15 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html, body {
+  overflow-x: hidden; /* Hide horizontal scroll */
+  overflow-y: auto; /* Allow vertical scroll */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#root {
+  width: 100%; /* Use percentage instead of vw */
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
